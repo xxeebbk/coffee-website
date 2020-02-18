@@ -208,7 +208,7 @@ position: relative;
 
 input, textarea {
     margin-top: 25px;
-    margin-left: 40px;
+    margin-left: 12.5%;
     border: none;
     background-color: #f7f7f7;
    
@@ -216,6 +216,10 @@ input, textarea {
 
 input[type=text], textarea{
     height: 50px;
-    width: 180%;
+    width: 75%;
     padding-left: 10px;
+}
+
+form {
+    width: 100%;
 }
