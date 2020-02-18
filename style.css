@@ -216,5 +216,6 @@ input, textarea {
 
 input[type=text], textarea{
     height: 50px;
-    width: 75%;
+    width: 180%;
+    padding-left: 10px;
 }
