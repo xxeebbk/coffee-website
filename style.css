@@ -2,7 +2,8 @@
 
 body{
     font-family: 'Avenir', sans-serif;
-    
+    margin: 0px;
+    background-color: rgb(248, 234, 213);
 }
 h1{
     color: #451F11;
@@ -173,4 +174,47 @@ position: relative;
 .grid-writing{
     width: 100%;
     text-align: left;
+}
+
+#formsbox {
+    padding-top: 200px;
+    display: flex;
+    
+}
+
+#lets{
+    padding: 40px;
+    text-align: center;
+}
+
+#img {
+    display: flex;
+    background-image: url(img/esp_.jpg);
+    color: white;
+    width: 48%;
+    font-size: 60px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 5%;
+}
+
+#forms {
+    display: flex;
+    width: 48%; 
+    align-items: center;
+    
+    background-color: white;
+}
+
+input, textarea {
+    margin-top: 25px;
+    margin-left: 40px;
+    border: none;
+    background-color: #f7f7f7;
+   
+}
+
+input[type=text], textarea{
+    height: 50px;
+    width: 75%;
 }
