@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-</head>
-
 <body>
     <h1>Hello World</h1>
     <h2>This is a  website</h2>
 
+    <h2>This is a website</h2>
     <p>This is the contents of the paragraph i'm writing right now!</p>
 </body>
-
-</html>

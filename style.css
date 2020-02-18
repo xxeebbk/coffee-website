@@ -1,0 +1,176 @@
+/*This is a comment*/
+
+body{
+    font-family: 'Avenir', sans-serif;
+    
+}
+h1{
+    color: #451F11;
+    font-size: 100px;
+    font-family:'Palatino', serif;
+    display: inline-block;
+   
+    }
+#second-header{
+    color:white;
+    padding-left: 20px;
+    
+}
+
+p{
+    font-size: 14px;
+    width: 30%;
+}
+
+#hero-section {
+display: flex;
+justify-content: center;
+align-items:center;
+height: 100vh;
+position: relative;
+}
+
+#hero-wrapper{
+    width: 600px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    padding-left: 37px;
+
+}
+
+#hero-beans{
+    background-image: url("img/beans.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute; 
+    top: 0px;
+    right: 0px;
+    width: 50%; 
+    height: 600px;
+    z-index: 1;
+}
+
+#navbar {
+    background-color: none;
+    position: absolute;
+    z-index: 5;
+    top: 0px;
+    width: 100vw;
+    height: 30px;
+    align-items: center; 
+    display: flex;
+    flex-direction: row;
+}
+#nav-social {
+    
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+   
+}
+
+#nav-text {
+       
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    
+    
+    
+}
+
+#icon {
+        height: 22px;
+        margin-right: 50px;
+}
+
+#menu-link {
+    color: white;
+    margin-left: 50px;
+}
+
+.standard-margin-section{
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 200px;
+}
+
+.columns-wrapper{
+    display: flex;
+
+}
+
+.column{
+    max-width: 30%;
+    background-color: #ffffff;
+}
+
+.column-image{
+    width: 100%;
+}
+
+.middle{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.column-text-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 25px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(350px, auto);
+
+    grid-gap: 15px;
+}
+
+.espresso-pic{
+    background-image: url("img/esspre.jpg");
+    background-size: cover;
+    background-position: center;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.cappucino-pic{
+    background-image: url("img/cap.jpg");
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+.grid-text{
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+    background-color: white;
+
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondone{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.grid-writing{
+    width: 100%;
+    text-align: left;
+}
