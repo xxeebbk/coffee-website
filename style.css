@@ -3,7 +3,7 @@
 body{
     font-family: 'Avenir', sans-serif;
     margin: 0px;
-    background-color: rgb(248, 234, 213);
+    background-color: #f7f7f7;
 }
 h1{
     color: #451F11;
@@ -220,6 +220,58 @@ input[type=text], textarea{
     padding-left: 10px;
 }
 
+input[type=submit]:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+
+
 form {
     width: 100%;
+}
+
+.footer{
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    padding-top: 25px;
+    
+}
+
+
+
+.foot-wrap {
+    background-color: white;
+    
+}
+#foot-coffee {
+    font-size: 50px;
+    
+}
+
+#contact {
+    display: flex;
+    margin-left: 70%;
+    margin-bottom: 15px;
+    
+}
+
+.foota-link {
+    margin-left: 15px;
+    
+}
+
+#copyright {
+    background-color: #f7f7f7;
+    height: 15px;
+   
+    
+}
+
+#copyright-text {
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+   
 }
