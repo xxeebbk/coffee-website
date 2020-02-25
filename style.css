@@ -12,10 +12,44 @@ h1{
     display: inline-block;
    
     }
+
+#love {
+  animation-name: love;
+  animation-duration: 2s;
+  
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes love {
+    0% {
+        transform: translate(0px, -50px);
+        opacity: 0%;
+    }
+    100% {
+        tranform: translate(0px, 0px)
+    }
+}   
+
 #second-header{
     color:white;
     padding-left: 20px;
-    
+    animation-name: second;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes second {
+    0% {
+        transform: translate(0px, 50px);
+        opacity: 0%;
+    }
+    100% {
+        tranform: translate(0px, 0px)
+    }
 }
 
 p{
