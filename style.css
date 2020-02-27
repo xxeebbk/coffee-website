@@ -66,7 +66,7 @@ position: relative;
 }
 
 #hero-wrapper{
-    width: 600px;
+    width: 700px;
     text-align: center;
     position: relative;
     z-index: 2;
@@ -308,4 +308,34 @@ form {
     width: 100%;
     font-size: 10px;
    
+}
+
+@media screen and (max-width: 800px) {
+
+    #hero-wrapper {
+        flex-direction: row;
+        position: relative;
+        height: 20%;
+    }
+    
+    #love {
+       
+        
+    
+    }
+
+    #second-header {
+
+    }
+
+    #hero-beans {
+        flex-direction: row;
+        position: relative;
+        width: 100vw;
+    }
+
+    #coffeeblurb {
+        color: white;
+    }
+
 }
