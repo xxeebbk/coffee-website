@@ -310,22 +310,27 @@ form {
    
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
 
+    #hero-section {
+        height: 40vh;
+    }
+    
     #hero-wrapper {
         flex-direction: row;
         position: relative;
-        height: 20%;
+        height: 40%;
     }
     
     #love {
-       
-        
+       padding: 0px;
+        margin-bottom: 0px;
     
     }
 
     #second-header {
-
+        padding: 0px;
+        margin-top: 0px;
     }
 
     #hero-beans {
@@ -336,6 +341,38 @@ form {
 
     #coffeeblurb {
         color: white;
+        width:70vw;
+        font-size: 25px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 40px;
+        font-weight: lighter;
+    }
+
+    .standard-margin-section {
+        max-width: 590px;
+    }
+
+    .columns-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        max-width: 90%;
+        background-color: #ffffff;
+        margin-top: 40px;
+    }
+
+    .middle {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .column-text-wrapper {
+        padding: 40px;
     }
 
 }
