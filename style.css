@@ -322,6 +322,10 @@ form {
         height: 40%;
     }
     
+    #navbar {
+        display: none;
+    }
+
     #love {
        padding: 0px;
         margin-bottom: 0px;
@@ -330,7 +334,7 @@ form {
 
     #second-header {
         padding: 0px;
-        margin-top: 0px;
+        margin-top: 5px;
     }
 
     #hero-beans {
@@ -373,6 +377,15 @@ form {
 
     .column-text-wrapper {
         padding: 40px;
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
+
+    h3 {
+        font-size: 40px;
+    }
+
+   
+
 
 }
