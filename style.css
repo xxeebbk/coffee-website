@@ -328,10 +328,7 @@ form {
         height: 50%;
     }
     
-    #navbar {
-        display: none;
-    }
-
+    
     #header-wrapper {
         margin-top: 6em;
     }
@@ -497,9 +494,12 @@ form {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-}
 
+    #nav-social {
+        display: none;
+    }
 
-    
-
+    #nav-text {
+        display: none;
+    }
 }
