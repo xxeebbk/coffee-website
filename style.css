@@ -385,7 +385,9 @@ form {
         font-size: 40px;
     }
 
-   
+    .grid {
+        flex-direction: column;
+    }
 
 
 }
