@@ -316,6 +316,27 @@ form {
    
 }
 
+#jumptotop {
+    width: 50px;
+    height: 50px;
+    box-shadow: none;
+    border: none;
+    border-radius: 50%;
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    padding: 0;
+    outline: none;
+    
+}
+
+
+
+
+#jumptop {
+    width: 100%;
+}
+
 @media screen and (max-width: 600px) {
 
     #hero-section {

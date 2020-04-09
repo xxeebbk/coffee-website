@@ -25,3 +25,9 @@ console.log(name.last);
 
 name.nickname = "Tan";
 name.skills [3] = "Fixer";
+
+let jumpToTop = document.getElementById("jumptotop");
+
+function topFunction() {
+    document.documentElement.scrollTop = 0;
+}
