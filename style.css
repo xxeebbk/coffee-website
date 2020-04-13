@@ -337,6 +337,17 @@ form {
     width: 100%;
 }
 
+
+#responce {
+    
+    color: red;
+    width: 99%;
+    padding: 10px;
+    width: 100%;
+    margin-left: 12%;
+
+}
+
 @media screen and (max-width: 600px) {
 
     #hero-section {

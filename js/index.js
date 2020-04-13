@@ -1,33 +1,25 @@
-console.log("Hello out there!");
-
-let firstName = "Martin";
-let lastName = "O'Driscoll";
-let myAge = "39";
-
-console.log(firstName, lastName, myAge);
-
-let mySkills = ["HTML", "CSS", "JavaScript"];
-
-mySkills [0] = "Windows 10";
-mySkills [3] = "Android User";
-
-console.log(mySkills);
-
-let name = {
-    first: firstName,
-    last: lastName,
-    age: myAge,
-    skills: mySkills
-}
-
-console.log(name);
-console.log(name.last);
-
-name.nickname = "Tan";
-name.skills [3] = "Fixer";
-
 let jumpToTop = document.getElementById("jumptotop");
 
 function topFunction() {
     document.documentElement.scrollTop = 0;
+}
+
+let submit = document.getElementById("submit");
+let name = document.getElementById("name");
+let email = document.getElementById("email");
+let message = document.getElementById("message");
+let responce = document.getElementById("responce")
+
+submit.addEventListener("click", submitForm);
+
+function submitForm(e) {
+    e.preventDefault();
+    responce.innerHTML = missingResponce (name.value, email.value, message.value);
+}
+
+function missingResponce(name,email,message) {
+    if (name === "" || email === "" || message === "") {
+        responce = "*Please complete entire form above";
+    }
+    
 }
