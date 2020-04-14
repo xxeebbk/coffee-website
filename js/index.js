@@ -22,4 +22,5 @@ function missingResponce(name,email,message) {
         responce = "*Please complete entire form above";
     }
     
+    return responce;
 }
