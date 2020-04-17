@@ -20,6 +20,9 @@ function submitForm(e) {
 function missingResponce(name,email,message) {
     if (name === "" || email === "" || message === "") {
         responce = "*Please complete entire form above";
+
+        //this is where the post info goes
+}
     }
     
     return responce;
