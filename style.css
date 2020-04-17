@@ -348,22 +348,33 @@ form {
 
 }
 
+#api {
+    display:flex;
+    
+}
+
 #coffeeprice {
     display: flex;
     flex-direction: row;
-    font-size: 20px;
-    bottom: 0;
-    justify-content: center;
+    align-items: flex-end;
+    font-size:80px;
+    margin-left: 35%;
+    margin-right: 15%;
+    margin-bottom: 100px;
+    color: #451F11;
 }
 
 #pounds {
     display:flex;
-    bottom: 0;
-    font-size: 20px;
-    justify-content: center;
-    color: white;
-    margin-left: 100px;
-
+    align-items: flex-start;
+    text-align: end;
+    font-size: 35px;
+    color: rgb(247, 39, 39);
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 60%;
+    
 }
 
 @media screen and (max-width: 600px) {
